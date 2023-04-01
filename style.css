@@ -1,0 +1,17 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inputContainer,
+.outPutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.inputContainer input{
+   padding: 0.8rem 1rem;
+   min-width: 300px;
+}
